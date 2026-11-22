@@ -1,0 +1,18 @@
+{
+  "0": {"code": "G1", "name": "画勾", "english": "Tick"},
+  "1": {"code": "G2", "name": "画叉", "english": "Cross"},
+  "2": {"code": "G3", "name": "顺时针画圈", "english": "Clockwise"},
+  "3": {"code": "G4", "name": "逆时针画圈", "english": "Counterclockwise"},
+  "4": {"code": "G5", "name": "挥手", "english": "Wave"},
+  "5": {"code": "G6", "name": "向左滑动", "english": "Swipe left"},
+  "6": {"code": "G7", "name": "向右滑动", "english": "Swipe right"},
+  "7": {"code": "G8", "name": "拉回", "english": "Pull"},
+  "8": {"code": "G9", "name": "前推", "english": "Push"},
+  "9": {"code": "G10", "name": "单击", "english": "Click"},
+  "10": {"code": "G11", "name": "握拳", "english": "Fist clench"},
+  "11": {"code": "G12", "name": "张开手掌", "english": "Palm open"},
+  "12": {"code": "G13", "name": "双击", "english": "Double click"},
+  "13": {"code": "G14", "name": "捏合", "english": "Pinch"},
+  "14": {"code": "G15", "name": "画 Z", "english": "Z-shaped motion"},
+  "15": {"code": "G16", "name": "画 S", "english": "S-shaped motion"}
+}

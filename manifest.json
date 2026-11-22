@@ -1,0 +1,42 @@
+{
+  "name": "mmwcas-v66-public",
+  "release_date": "2026-11-22",
+  "platform": "Jetson Nano",
+  "python": "3.6",
+  "pytorch": "1.10",
+  "license": "MIT",
+  "copyright": "2026 Yuqing Song, Ambient Intelligence group, Aalto University",
+  "defaults": {
+    "model": "context17",
+    "ui": "compact",
+    "radar_host": "192.168.33.180",
+    "radar_port": 29172,
+    "http_port": 8765
+  },
+  "models": {
+    "context17": {
+      "checkpoint": "checkpoints/yuqing20_standalone_seed42.pt",
+      "preprocessing": "preprocessing_context17.py",
+      "description": "Faster standalone 16-class Context 17 model"
+    },
+    "efcir": {
+      "checkpoint": "checkpoints/efcir_seed42.pt",
+      "preprocessing": "preprocessing_efcir.py",
+      "description": "Full EF-CIR soft-routing model"
+    }
+  },
+  "web_views": {
+    "compact": "dsp_live_gesture/ui_compact.html",
+    "full": "dsp_live_gesture/ui_full.html"
+  },
+  "radar_firmware": {
+    "bootloader": "radar-card/MLO",
+    "file": "radar-card/AppImage",
+    "build_id": "MMWCAS_MATLAB_BURST_V66_20261117",
+    "sha256": "f79615cf232acb8616cb6796bcc30d6947a202f77767490264d0981fb0899f11",
+    "ti_license": "radar-card/LICENSE_TI.txt",
+    "ti_manifest": "radar-card/Processor_SDK_Radar_manifest.html"
+  },
+  "radar_configuration": "radar-card/radar_test_vector/",
+  "datasets_included": false
+}

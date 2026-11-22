@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+dsp-gesture-results/
+dsp-rd-snapshots/
+dsp-gesture-datasets/
+nano-folder-test-results/

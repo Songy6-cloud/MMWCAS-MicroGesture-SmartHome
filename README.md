@@ -2,6 +2,12 @@
 
 Jetson Nano viewer and recognizer for the TI MMWCAS burst firmware. This release combines two recognition models and two web views in one small package. 
 
+## Demo Video
+
+[![One-Take Micro-Gesture Recognition Demo](https://img.youtube.com/vi/hcJ-2FPNOik/maxresdefault.jpg)](https://youtu.be/hcJ-2FPNOik)
+
+One-take demonstration of 16 micro-gestures for smart-home control using TI MMWCAS and Jetson Nano.
+
 ## Defaults
 
 - Model: **Context 17 standalone** (faster)
